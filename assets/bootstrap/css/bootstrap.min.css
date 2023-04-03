@@ -2825,6 +2825,7 @@ fieldset:disabled .btn {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #4e73df;
   --bs-btn-disabled-border-color: #4e73df;
+    
 }
 .btn-secondary {
   --bs-btn-color: #fff;
