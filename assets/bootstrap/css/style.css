@@ -81,3 +81,15 @@
     width: 50px;
     background-color: red;
 } */
+
+.head h2
+{
+  text-align: center;
+}
+.head h3
+{
+  margin-left: 100px;
+  display: inline-;
+  background-color: red;
+  
+}
