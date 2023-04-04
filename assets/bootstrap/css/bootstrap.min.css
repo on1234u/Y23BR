@@ -2825,6 +2825,7 @@ fieldset:disabled .btn {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #4e73df;
   --bs-btn-disabled-border-color: #4e73df;
+    
 }
 .btn-secondary {
   --bs-btn-color: #fff;
@@ -4432,7 +4433,7 @@ fieldset:disabled .btn {
 }
 .page-link {
   position: relative;
-  display: block;
+  
   padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
   font-size: var(--bs-pagination-font-size);
   color: var(--bs-pagination-color);
@@ -4476,7 +4477,7 @@ fieldset:disabled .btn {
   border-color: var(--bs-pagination-disabled-border-color);
 }
 .page-item:not(:first-child) .page-link {
-  margin-left: -1px;
+  margin-left: 0;
 }
 .page-item .page-link {
   border-radius: var(--bs-pagination-border-radius);

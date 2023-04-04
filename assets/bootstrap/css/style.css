@@ -5,9 +5,10 @@
 /* Create two equal columns that floats next to each other */
 .col {
   float: left;
-  width: 100%;
+  width: 10%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 780px;
+   /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -15,4 +16,62 @@
   content: "";
   display: table;
   clear: both;
+  
+  padding-right: 10px;
+}
+
+.subbtn{
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px;
+    height: 10px;
+    
+    
+}
+
+.select{
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+}
+
+.btn.btnalign{
+    float: right;
+    padding-left: 10%;
+    width: -10%;
+}
+
+.alignn{
+
+    padding-left: 50px;
+    padding-top: 400px;
+}
+
+.alignnn{
+
+    padding-left: 10px;
+    
+}
+
+#container{
+  width: 98%;
+  margin: 0 auto;
+}
+
+.col1{
+  float:left;
+  width: 850px;
+  margin: 0 auto;
+}
+.col2{
+  float:right;
+  width: 450px;
+  margin: 0 auto;
+}
+
+#body1{
+  margin: 0;
+  padding: 0;
 }
