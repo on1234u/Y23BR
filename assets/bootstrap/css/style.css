@@ -3,26 +3,27 @@
 }
 
 /* Create two equal columns that floats next to each other */
-.col {
+/* .col {
   float: left;
   width: 10%;
   padding: 10px;
   height: 780px;
-   /* Should be removed. Only for demonstration */
-}
+  
+
+} */
 
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-  
+  padding-top: 10px;
   padding-right: 10px;
-}
+} */
 
 .subbtn{
     float: right;
-    padding-right: 30px;
+    padding-right: 40px;
     padding-top: 20px;
     height: 10px;
     
@@ -44,7 +45,7 @@
 }
 
 .alignn{
-
+  
     padding-left: 50px;
     padding-top: 400px;
 }
@@ -75,3 +76,8 @@
   margin: 0;
   padding: 0;
 }
+
+/* .row .col p{
+    width: 50px;
+    background-color: red;
+} */
